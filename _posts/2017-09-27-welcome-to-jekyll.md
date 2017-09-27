@@ -12,6 +12,8 @@ pwd
 ```
 今いるdirectoryを表示
 
+![](https://cl.ly/2W3R1O1s1U2t/Screen%20Recording%202017-09-27%20at%2003.33%20PM.gif)
+
 ## cd ~
 ```
 cd ~
