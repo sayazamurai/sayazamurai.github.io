@@ -37,3 +37,18 @@ directoryを移動する
 ls
 ```
 directory内のフォルダをリストアップする
+
+## rmdirまたはrm -rf
+```
+rmdir
+```
+ディレクトリを消す
+
+## pushd/popd
+```
+pushd
+popd
+```
+現在のディレクトリを保存したまま別のディレクトリに移動する/戻る
+
+
