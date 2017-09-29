@@ -36,6 +36,10 @@ mkdir
 ![](https://cl.ly/1j2M1U1Q3I0m/Image%202017-09-29%20at%2012.20.00%20PM.png)
 ![](https://cl.ly/3E473S3L3Y3k/Image%202017-09-29%20at%2012.26.02%20PM.png)
 
+入れ子で連続的にサブディレクトリを作る時は・・・
+![](https://cl.ly/1b3l0I3C2Z2S/Image%202017-09-29%20at%207.13.49%20PM.png)
+![](https://cl.ly/0y022c0n100J/Image%202017-09-29%20at%207.18.34%20PM.png)
+
 
 ## cd
 ```
@@ -101,6 +105,33 @@ popd
 ②"kento"から"fuma"に`pushd`で移動する<br>
 ③`popd`を実行すると**"fuma"に戻る**
 ![](https://cl.ly/2c29322J1S1r/Image%202017-09-29%20at%206.58.59%20PM.png)
+
+## touch
+```
+touch
+```
+ディレクトリの中に新しいファイル（.txtとか）を作る
+![](https://cl.ly/1T1Z0X2z2V3I/Image%202017-09-29%20at%207.41.40%20PM.png)
+![](https://cl.ly/442X3S1G400Y/Image%202017-09-29%20at%207.30.45%20PM.png)
+
+
+## cp
+```
+cp
+```
+ディレクトリ内のファイルをコピーして新しいファイルを作る
+![](https://cl.ly/161G1u2b2m1m/Image%202017-09-29%20at%207.43.27%20PM.png)
+
+新しいディレクトリを作り、その中に別のディレクトリのファイルをコピーする
+![](https://cl.ly/2Q1g2B1z102L/Image%202017-09-29%20at%207.49.59%20PM.png)
+![](https://cl.ly/2o1p3t0X140Q/Image%202017-09-29%20at%208.03.26%20PM.png)
+
+ディレクトリを中身ごと全部コピーして新しいディレクトリを作る
+![](https://cl.ly/2u0r283H330v/Image%202017-09-29%20at%207.58.58%20PM.png)
+![](https://cl.ly/3u0r1L0R0L1s/Image%202017-09-29%20at%208.05.11%20PM.png)
+
+
+
 
 
 
