@@ -114,6 +114,9 @@ touch
 ![](https://cl.ly/1T1Z0X2z2V3I/Image%202017-09-29%20at%207.41.40%20PM.png)
 ![](https://cl.ly/442X3S1G400Y/Image%202017-09-29%20at%207.30.45%20PM.png)
 
+指定したディレクトリの中に新しいファイルを作る
+![](https://cl.ly/2E1G0p0M1S0m/[c3c732fa0b8897a1c38f9a7769e1da8c]_Image%202017-10-01%20at%204.05.58%20PM.png)
+
 
 ## cp
 ```
@@ -129,6 +132,101 @@ cp
 ディレクトリを中身ごと全部コピーして新しいディレクトリを作る
 ![](https://cl.ly/2u0r283H330v/Image%202017-09-29%20at%207.58.58%20PM.png)
 ![](https://cl.ly/3u0r1L0R0L1s/Image%202017-09-29%20at%208.05.11%20PM.png)
+
+## mv
+```
+mv
+```
+ファイルのを移動する（ファイル名を変える）
+
+ファイルの名前を変える
+![](https://cl.ly/0H2n0W2h063w/Image%202017-10-01%20at%203.02.19%20PM.png)
+![](https://cl.ly/2L0a163w3U3w/[038519a671f0e9d1804e639e62a10105]_Image%202017-10-01%20at%2012.52.03%20PM.png)
+
+ディレクトリの名前を変える
+![](https://cl.ly/1e0M3q0N2o05/Image%202017-10-01%20at%203.10.53%20PM.png)
+
+ディレクトリ内のファイルを別のディレクトリに移動する<br>
+("sexy zone"内の"shori"を"~/i/love"内に移動する )
+![](https://cl.ly/0V310G1G461y/[5aee8730b0e69e42315e9c5e7a8599c6]_Image%202017-10-01%20at%202.49.18%20PM.png)
+![](https://cl.ly/0b3r1v0F0z0J/Image%202017-10-01%20at%202.49.34%20PM.png)
+..."sexy zone"ディレクトリにいる時は・・・
+![](https://cl.ly/2n043P0F3g3t/Image%202017-10-01%20at%203.25.08%20PM.png)
+...ホームディレクトリにいる時は・・・
+![](https://cl.ly/393p1J2V2x3y/Image%202017-10-01%20at%203.27.48%20PM.png)
+![](https://cl.ly/270R2V1s131j/[5e0013747bbbe822d6250973fa20d9b5]_Image%202017-10-01%20at%202.52.51%20PM.png)
+
+
+## less
+```
+less
+```
+ファイルの内容を表示する
+
+![](https://cl.ly/2F2r0Z0S2d1z/[1db9166307961fee48fb07583e88856a]_Image%202017-10-01%20at%202.41.48%20PM.png)
+![](https://cl.ly/3z2m34382h1B/Image%202017-10-01%20at%203.33.36%20PM.png)
+![](https://cl.ly/2N390i300S46/[dea29bf90938553619d80374d6e1c80d]_Image%202017-10-01%20at%202.44.33%20PM.png)
+
+* 閉じる時は"q"(＝quit)
+* ↑、↓で上下にスクロール
+* spacebarで一画面分下にスクロール、"w"キーで一画面分上にスクロール
+![](https://cl.ly/0Y2R1e0W403G/Screen%20Recording%202017-10-01%20at%2004.23%20PM.gif)
+
+## cat
+```
+cat
+```
+ファイルの内容を直接スクリーンに表示する
+
+![](https://cl.ly/1y281V3m1m3c/Image%202017-10-01%20at%204.37.03%20PM.png)
+
+## rm/rmdir
+```
+rm
+```
+
+ファイルを削除する
+![](https://cl.ly/3r3b0E1o1o2C/Image%202017-10-01%20at%204.41.07%20PM.png)
+![](https://cl.ly/2a3V2P3s0A2c/Image%202017-10-01%20at%204.59.58%20PM.png)
+![](https://cl.ly/0b3L3p1O2630/Image%202017-10-01%20at%204.41.54%20PM.png)
+
+ディレクトリの中のファイルを削除する
+![](https://cl.ly/390v3H0w1b1z/Image%202017-10-01%20at%205.03.49%20PM.png)
+![](https://cl.ly/2s0E1u1z2N3Y/Image%202017-10-01%20at%204.48.42%20PM.png)
+
+ディレクトリを削除する
+![](https://cl.ly/352q1y3j143h/Image%202017-10-01%20at%205.13.39%20PM.png)
+![](https://cl.ly/0D34271m2B2R/Image%202017-10-01%20at%204.49.43%20PM.png)
+
+
+ディレクトリの中身ごと全部削除する
+![](https://cl.ly/2V1K1k2z3O3V/Image%202017-10-01%20at%204.50.41%20PM.png)
+![](https://cl.ly/3c0j123H1K2G/Image%202017-10-01%20at%205.12.47%20PM.png)
+![](https://cl.ly/0G1s3G1u1d26/Image%202017-10-01%20at%204.54.01%20PM.png)
+
+## echo
+```
+echo
+```
+呼応するテキストを表示する/ファイルに書き込む
+
+呼応するテキストを表示する
+![](https://cl.ly/0z2J2N0e1J3I/Image%202017-10-01%20at%205.46.43%20PM.png)
+
+呼応するテキストをファイルに**上書きして**書き込む<br>
+![](https://cl.ly/0z2J2N0e1J3I/Image%202017-10-01%20at%205.46.43%20PM.png)
+![](https://cl.ly/0Z1U1w0V1u0s/Image%202017-10-01%20at%205.41.15%20PM.png)
+もう一度やると・・・
+![](https://cl.ly/0x2Z1b2t0M2O/Image%202017-10-01%20at%205.49.14%20PM.png)
+![](https://cl.ly/10312o2L2Q07/Image%202017-10-01%20at%206.01.40%20PM.png)
+
+呼応するテキストをファイルに**追加して**書き込む
+![](https://cl.ly/1i2A3g3K070R/Image%202017-10-01%20at%205.55.08%20PM.png)
+![](https://cl.ly/2B1j2i0q0M2q/Image%202017-10-01%20at%205.51.50%20PM.png)
+
+* `>`は上書き（全部を書き替え）、`>>`は追加して書き込み
+
+
 
 
 
