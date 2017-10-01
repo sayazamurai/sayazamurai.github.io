@@ -51,6 +51,12 @@ print("This will run." )
 print("Hi # there")
 ```
 
+実行方法:
+
+```
+python3.6 chapter2/ex2.py
+```
+
 ## Exercise 3: Numbers and Math
 
 ```python
@@ -90,4 +96,10 @@ print("Is it greater or equal?", 5 >= -2)
 
 # Is it less or equal? False
 print("Is it less or equal?", 5 <= -2)
+```
+
+実行方法:
+
+```
+python3.6 chapter3/ex3.py
 ```
