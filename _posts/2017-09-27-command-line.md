@@ -288,10 +288,12 @@ echo
 ## subl
 
 ```
-subl
+subl .
 ```
 
 現在いるディレクトリをSublime Textで開く
+
+cdで"learn-python"ディレクトリに移動→
 
 ![](https://cl.ly/20221V240e0W/Image%202017-10-01%20at%207.13.09%20PM.png)
 

@@ -35,6 +35,13 @@ print('I "said" you do not touch this.')
 python3.6 chapter1/ex1.py
 ```
 
+printで改行する方法:
+```
+print("shori \nkento \nfuma \nso \nmarius")
+```
+
+* `\`(バックスラッシュ)はoption+¥
+
 ## Exercise 2: Comments and Pound Characters
 
 ```python
@@ -103,3 +110,6 @@ print("Is it less or equal?", 5 <= -2)
 ```
 python3.6 chapter3/ex3.py
 ```
+
+* 割り算を実行すると.0(小数点以下)が表示される
+* `%`は割り算の余り（＝偶数、奇数の判別によく使う）
