@@ -92,6 +92,8 @@ Even 4 lines if we want, or 5, or 6.
 
 # "が3つじゃないと、
 # 'で文字列が途切れたり、文字列として認識されなかったりするのでエラーになる	
+
+# SyntaxError: EOL while scanning string literal
 print("
 There's something going on here.
 With the three double-quotes.
