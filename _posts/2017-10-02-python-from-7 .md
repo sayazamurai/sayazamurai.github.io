@@ -101,3 +101,45 @@ We'll be able to type as much as we like.
 Even 4 lines if we want, or 5, or 6.
 ")
 ```
+
+## Exercise 10: What Was That? 
+
+```python
+# "escape sequences"
+# = キーボードから入力できない文字を他の文字の組み合わせで表現したもの
+
+# \t = horizontal tab = 水平タブ
+# 文字列を水平方向にインデントする
+tabby_cat = "\tI'm tabbed in."
+
+# \n = 改行
+persian_cat = "I sprit\non a line."
+
+# \\ = 1つのバックスラッシュを表示する
+backslash_cat = "I'm \\ a \\ cat."
+
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+
+# 	I'm tabbed in.
+print(tabby_cat)
+
+# I sprit
+# on a line.
+print(persian_cat)
+
+
+# I'm \ a \ cat.
+print(backslash_cat)
+
+# I'll do a list:
+#	* Cat food
+#	* Fishies
+#	* Catnip
+#	* Grass
+print(fat_cat)
+```
