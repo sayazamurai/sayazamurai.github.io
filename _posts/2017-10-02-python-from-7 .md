@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Learn Python 3 the Hard Way: Exercise 7 - 9で学んだこと"
+title:  "Learn Python 3 the Hard Way: Exercise 7 - 10で学んだこと"
 ---
 
-[Learn Python 3 the Hard Way](https://learnpythonthehardway.org/)の「Exercise 7 - 9」で学んだことのまとめです。
+[Learn Python 3 the Hard Way](https://learnpythonthehardway.org/)の「Exercise 7 - 10」で学んだことのまとめです。
 
 ## Exercise 7: More Printing
 
@@ -143,3 +143,5 @@ print(backslash_cat)
 #	* Grass
 print(fat_cat)
 ```
+
+* Escape Sequencesの一覧...p65
