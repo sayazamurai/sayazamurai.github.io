@@ -26,9 +26,13 @@ print("We have", passengers,"to car pool today.")
 print("We need to put about", average_passengers_par_car, "in each car.")
 ```
 
+*今sublimeで開いているフォルダの中のファイルを開く:
+command + t　→　ファイル名を入力
+ 
+
 ## Exercise 5: More Variables and Printing
 
-```
+```python
 my_name = 'Zed A. Shaw'
 my_age = 35 # not a lie
 my_height = 74 # inches
@@ -52,4 +56,42 @@ total = my_age + my_height + my_weight
 print(f"If I add {my_age}, {my_height}, and {my_weight} I get {total}.")
 ```
 
-## Exercise 6: String and Text  
+*数字(number)を文字列(string)として表示する
+
+```
+str(my_age)
+```
+
+## Exercise 6: String and Text
+
+```python
+types_of_people = 10
+x = f"There are {types_of_people} types of people."
+
+binary = "binary"
+do_not = "don't"
+y = f"Those who know {binary} those who {do_not}."
+
+# There are 10 types of people.
+print(x)
+
+# Those who know binary those who don't.
+print(y)
+
+# I said: There are 10 types of people.
+print(f"I said: {x}")
+
+# I also said: 'Those who know binary those who don't.'
+print(f"I also said: '{y}'")
+
+hilarious = False
+joke_evaluation = "Isn't that joke so funny?! {}"
+
+# Isn't that joke so funny?! False
+print(joke_evaluation.format(hilarious))
+
+w = "This is the left side of..."
+e = "a string with a right side."
+
+# This is the left side of...a string with a right side.
+```  
