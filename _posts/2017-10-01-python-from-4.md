@@ -58,7 +58,7 @@ print(f"If I add {my_age}, {my_height}, and {my_weight} I get {total}.")
 
 *数字(number)を文字列(string)として表示する
 
-```
+```python
 str(my_age)
 ```
 
