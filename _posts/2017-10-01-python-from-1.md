@@ -74,6 +74,7 @@ print("Hens", 25 + 30 / 6)
 
 # Roosters 97
 print("Roosters", 100 - 25 * 3 % 4)
+# % = 割り算の余り
 
 print("Now I will count the eggs:")
 
